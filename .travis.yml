@@ -1,6 +1,14 @@
 language: python
 python:
-- "3.4"
-- "3.5"
+- "3.9"
+
+install:
+- pip install pandas
+- pip install matplotlib.pyplot
+- pip install csv
+- pip install os
+- pip install datetime
+- pip install abc
+  
 script:
 - python orchardmanagement/unittest_modules/unittest_inventory.py

@@ -7,4 +7,4 @@ install:
 - pip install matplotlib
   
 script:
-- python orchardmanagement/unittest_modules/unittest_inventory.py
+- python orchardmanagement/unittest_modules/orchard_test_suite.py

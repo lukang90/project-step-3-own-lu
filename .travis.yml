@@ -5,9 +5,6 @@ python:
 install:
 - pip install pandas
 - pip install matplotlib
-- pip install csv
-- pip install os
-- pip install datetime
 - pip install abc
   
 script:
